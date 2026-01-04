@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "store_name": "C3OS Official Store",
+    "apps": [
+        {
+            "name": "Optimizer",
+            "file": "DeviceOptimizer.lua",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/DeviceOptimizer.lua",
+            "desc": "Optimize Device Performance"
+        }
+    ]
+}
