@@ -14,7 +14,9 @@ function DrawOpti()
     c3_print("RAM: "..c3_get_heap().." B", 5, 32)
 
     c3_draw_frame(5, 44, 118, 8)
-    c3_draw_box(5, 44, progress * 118 / 100, 8)
+
+    local bar = math.floor(progress * 118 / 100)
+    c3_draw_box(5, 44, bar, 8)
 
     c3_update()
 end
@@ -29,3 +31,4 @@ collectgarbage()
 
 status = "Optimized"
 DrawOpti()
+
