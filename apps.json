@@ -9,12 +9,13 @@
             "desc": "Optimize Device Performance"
         },
         {
-            "name": "Dummy",
-            "file": "Dummy.lua",
-            "url": "https://youtu.be/",
-            "desc": "Dummy App"
+            "name": "Weather",
+            "file": "Weather.lua",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/Weather.lua",
+            "desc": "A weather app suitable for ESP32C3"
         }
     ]
 }
+
 
 
