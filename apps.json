@@ -5,7 +5,7 @@
         {
             "name": "Optimizer",
             "file": "DeviceOptimizer.lua",
-            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/DeviceOptimizer.lua",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/DeviceOptimizer.lua",
             "desc": "Optimize Device Performance"
         },
         {
@@ -16,4 +16,5 @@
         }
     ]
 }
+
 
