@@ -25,12 +25,16 @@ while true do
     c3_update()
 
     local ev = c3_btn("ok")
+
     if ev == 1 and not busy then
         busy = true
-        data = c3_get_weather(city)
-        busy = false
     elseif ev == 2 then
         break
+    end
+
+    if busy then
+        data = c3_get_weather(city)
+        busy = false
     end
 
     c3_sleep(50)
