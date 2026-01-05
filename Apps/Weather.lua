@@ -27,8 +27,10 @@ while true do
     local ev = c3_btn("ok")
 
     if ev == 1 and not busy then
-        break
+        return
     end
 
     c3_sleep(50)
 end
+
+return
