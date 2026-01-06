@@ -6,16 +6,21 @@
             "name": "Optimizer",
             "file": "DeviceOptimizer.lua",
             "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/DeviceOptimizer.lua",
-            "desc": "Optimize Device Performance"
+            "desc": "Optimize Device Performance",
+            "license": "C3DL",
+            "author": "C3"
         },
         {
             "name": "Weather",
             "file": "Weather.lua",
             "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/Weather.lua",
-            "desc": "A weather app suitable for ESP32C3"
+            "desc": "A weather app suitable for ESP32C3",
+            "license": "C3DL",
+            "author": "C3"
         }
     ]
 }
+
 
 
 
