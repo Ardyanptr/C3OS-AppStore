@@ -27,10 +27,16 @@ while running do
 
     local ev = c3_btn("ok")
 
-    if ev == 3 then
+    if ev ~= 0 then
+        print("Event detected: " .. ev)
+    end
+
+    if ev == 3 or ev == 2 then
         running = false
     elseif ev == 1 and not busy then
+        busy = true
         data = c3_get_weather(city)
+        busy = false
     end
 
     c3_sleep(50)
