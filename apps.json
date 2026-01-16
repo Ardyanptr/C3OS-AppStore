@@ -17,9 +17,18 @@
             "desc": "A weather app suitable for ESP32C3",
             "license": "C3DL",
             "author": "C3"
+        },
+        {
+            "name": "Rain Matrix",
+            "file": "RainMatrix.lua",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/RainMatrix.lua",
+            "desc": "Animated Rain Matrix",
+            "license": "C3DL",
+            "author": "C3"
         }
     ]
 }
+
 
 
 
