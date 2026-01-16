@@ -4,8 +4,9 @@ local city = "Pandaan";
 local data = c3_get_weather(city);
 
 local busy = false
+local running = true
 
-while true do
+while running do
     c3_cls()
 
     c3_print("Weather In", 35, 5)
@@ -26,11 +27,11 @@ while true do
 
     local ev = c3_btn("ok")
 
-    if ev == 1 and not busy then
-        return
+    if ev == 3 then
+        running = false
+    elseif ev == 1 and not busy then
+        data = c3_get_weather(city)
     end
 
     c3_sleep(50)
 end
-
-return
