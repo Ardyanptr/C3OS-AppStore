@@ -25,9 +25,18 @@
             "desc": "Animated Rain Matrix",
             "license": "C3DL",
             "author": "C3"
+        },
+        {
+            "name": "Neofetch",
+            "file:" "Neofetch.lua",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/neofetch.lua",
+            "desc": "Show device information",
+            "license": "C3DL",
+            "author": "C3"
         }
     ]
 }
+
 
 
 
