@@ -33,7 +33,55 @@
             "desc": "Show device information",
             "license": "C3DL",
             "author": "C3"
-        }
+        },
+        {
+            "name": "Airplane",
+            "file": "Airplance.ch8",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/Airplane.ch8",
+            "desc": "Dodge the bottom airplane",
+            "license": "Chip8",
+            "author": "netpro2k - chip8"
+        },
+        {
+            "name": "AstroDodge",
+            "file": "AstroDodge.ch8",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/AstroDodge.ch8",
+            "desc": "Dodge the enemy",
+            "license": "Chip8",
+            "author": "netpro2k - chip8"
+        },
+        {
+            "name": "BRIX",
+            "file": "BRIX.ch8",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/BRIX.ch8",
+            "desc": "Typical bouncing ball",
+            "license": "Chip8",
+            "author": "netpro2k - chip8"
+        },
+        {
+            "name": "Chip8 Picture",
+            "file": "AstroDodge.ch8",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/Chip8 Picture.ch8",
+            "desc": "Test the Chip8 Emulator",
+            "license": "Chip8",
+            "author": "netpro2k - chip8"
+        },
+        {
+            "name": "Kaleidoscope",
+            "file": "AstroDodge.ch8",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/Kaleidoscope.ch8",
+            "desc": "Kaleidoscope for Chip8",
+            "license": "Chip8",
+            "author": "netpro2k - chip8"
+        },
+        {
+            "name": "Tetris",
+            "file": "Tetris.ch8",
+            "url": "https://raw.githubusercontent.com/Ardyanptr/C3OS-AppStore/refs/heads/main/Apps/Tetris.ch8",
+            "desc": "Classic Tetris Game",
+            "license": "Chip8",
+            "author": "netpro2k - chip8"
+        },
     ]
 }
 
